@@ -5,16 +5,33 @@ body {
 
 }
 
-.form-container {
-    background-color: rgba(255, 255, 255, 0.6);
+a.button {
+    
+    appearance: button;
+
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #443232;
     border-radius: 5px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-    width: 500px;
-    height: 500px;
+    margin: 100px 85vh;
+}
+
+.bienvenida {
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     margin: 100px auto;
 }
